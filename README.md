@@ -297,10 +297,3 @@ scripts/            → Tooling
 |---|---|---|
 | `/api/predict` | POST | Accepts route, stop, date, time, weather, traffic, holiday, and event flags; returns predicted passengers, utilization, demand level, recommendation, and confidence |
 | `/api/route` | POST | Accepts start and destination stop IDs; returns shortest path and demand-aware path with per-segment distance, time, and demand levels |
-
-## Acknowledgements
-
-- **OpenStreetMap** — map tiles used for the Leaflet network visualization.
-- **Recharts** — charting library for all dashboard and analytics visualizations.
-- **Next.js** — React framework enabling both server-side rendering and API routes.
-- This project was developed as part of the academic curriculum for **Data Analytics in Education, Entertainment and Hospitality**.
